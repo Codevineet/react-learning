@@ -20,7 +20,7 @@
     border-radius: 50%;
 }
 
-.card-container{
+.cardContainer{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;

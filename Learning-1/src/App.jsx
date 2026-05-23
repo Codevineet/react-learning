@@ -1,6 +1,6 @@
 import React from 'react'
-import DisplayCard from './Components/DisplayCard'
-import NavBar from './Components/NavBar'
+import NavBar from './Components/Navbar/NavBar.jsx';
+import DisplayCard from './Components/DisplayCard/DisplayCard.jsx';
 import './App.css'
 
 const App = () => {

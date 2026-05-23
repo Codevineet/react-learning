@@ -1,4 +1,4 @@
-.nav-bar{
+.navBar{
     background-color: #111;
     display: flex;
     justify-content: space-around;
@@ -6,8 +6,7 @@
     padding:20px;
 }
 
-a{
+.navBar a{
     text-decoration: none;
     color:white;
 }
-

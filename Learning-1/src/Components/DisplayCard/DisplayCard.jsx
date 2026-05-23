@@ -1,13 +1,13 @@
 import React from 'react'
-import './DisplayCard.css'
+import styles from './DisplayCard.module.css';
 
 const DisplayCard = ({ details }) => {
 
     return (
-        <div className='card-container'>
+        <div className={styles.cardContainer}>
             {details.map((user, index) => {
                 return (
-                    <div className='card' key={index}>
+                    <div className={styles.card} key={index}>
                         <img src={user.image} alt={user.userName} />
                         <h1>{user.userName}</h1>
                         <p>{user.userDesc}</p>
